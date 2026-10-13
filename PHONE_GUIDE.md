@@ -21,6 +21,12 @@ Setup keeps running in that terminal for a few minutes. Wait until it finishes.
 2. Find the row labelled **Desktop (6080)** and tap the 🌐 globe icon. The desktop opens in a new Safari tab.
 3. Tap **Connect**. The password is `vscode`.
 
+No Ports tab? Phone screens often hide it. Instead, type this in the terminal and tap the link it prints:
+
+```
+echo "https://${CODESPACE_NAME}-6080.${GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN}"
+```
+
 Keep this tab open. You'll switch between it and the terminal tab.
 
 ## 3. Sign GHunt in to Google (once)
